@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widh=device-width, user-scalable=no, initial-scale=1.0 maximum-scale=1.0, minimum-scale=1.0">
+    <title>Felipe San Martín G | Frotend developer</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Sitio web de Desarrollador Frontend Felipe San Martín G.">
+    <meta name="author" content="Felipe San Martín G.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="menu">
+        <ul>
+            <li><a href="#sobremi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#hablemos">Hablemos</a></li>
+        </ul>
+    </nav>
+    <!-- /header -->
+    
+    <!-- sobre mi -->
+    <section class="sobre-mi">
+        <hgroup>
+            <h1>Hola <span class="wave">👋🏼</span>, soy <strong>Felipe San Martín G</strong>.</h1>
+            <h2>Frontend developer</h2>   
+        </hgroup>
+
+        <!-- descripcion  -->
+        <div class="sobre-mi_descripcion">
+            <img src="img/felipe-san-martin.png" alt="foto de Felipe San Martín G">
+    
+            <div id="sobremi" class="descripcion-texto">
+                <h4>Sobre mí</h4>
+                <p>Soy <strong>Diseñador Gráfico</strong> con enfoque en UI y UX. <strong>Frontend developer</strong> en constante formación. Te invito a revisar mi portafolio y ponerte en contacto conmigo, si así tu lo prefieres. Bienvenido/a a mi rincón en esta gran nube llamada internet.</p>
+                <div class="social">
+                    <a target="_blank" href="https://www.linkedin.com/in/felipesanmarting/"><i class="im im-linkedin"></i></a>
+                    <a href="#" download>Descargar CV <i class="im im-download"></i></a>
+                </div>
+            </div>                
+        </div>
+        <!-- /descripcion  -->
+    </section>
+    <!-- /sobre mi -->
+
+    <!-- Proyectos -->
+    <section class="mascara-recorte gradient"></section>
+    <section id="proyectos" class="proyectos gradient">
+        <h4>Proyectos</h4>
+        <p>Acá podrás encontrar mis últimos proyectos en desarrollo web y programación.</p>
+        <a href="proyectos.html">Otros proyectos <i class="im im-rocket"></i></a>
+
+        <div class="projectos-caja">
+            
+                <div class="proyectos-box">
+                    <div class="proyectos-box-item">
+                        <img src="img/project-item.jpg" alt="foto proyecto número uno">
+                        <a href="#">Proyecto <span class="tech">HTML, CSS, JavaScript y ReactJs</span></a>
+                    </div>
+                </div>
+
+                <div class="proyectos-box">
+                    <div class="proyectos-box-item">
+                        <img src="img/project-item.jpg" alt="foto proyecto número dos">
+                        <a href="#">Proyecto <span class="tech">HTML, CSS, JavaScript</span></a>
+                    </div>
+                </div>
+
+                <div class="proyectos-box">
+                    <div class="proyectos-box-item">
+                        <img src="img/project-item.jpg" alt="foto proyecto número tres">
+                        <a href="#">Proyecto <span class="tech">HTML, CSS, JavaScript</span></a>
+                    </div>
+                </div>
+            
+        </div>
+
+
+        <footer>
+            <h3>¿Hablemos?</h3>
+            <section id="hablemos" class="contact">
+                    <div class="contact-content">
+                        <form id="form" class="form"  action="https://formspree.io/f/xeqvnrey"
+                        method="POST">
+                      
+                            <input name="name" required type="text" id="name" placeholder="Tu nombre">
+                            
+                            <input name="email" type="email" id="email" required placeholder="tucorreo@correo.cl">
+                            
+                            <textarea id="message" type="text" name="message" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                            
+                            <button id="" type="submit" class="btn">Enviar mensaje <i class="im im-paperplane"></i></button>
+                        </form>
+                    </div>
+            </section>
+            <section class="mascara-recorte-footer gradient"></section>
+        </footer>
+        
+        <p class="firma">Diseño y desarrollo <span>Felipe San Martín G. 👨🏻‍💻</span></p>
+    </section>
+
+
+    <!-- js formulario -->
+    <script src="js/formulario.js"></script>
+</body>
+</html>

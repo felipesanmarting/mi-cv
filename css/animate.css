@@ -1,0 +1,60 @@
+/****************************
+    Animaciones
+****************************/
+.gradient {
+	background: linear-gradient(90deg, #fca802, #fcb400, rgb(255, 230, 0));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+/*animacion hgroup*/
+/* @keyframes floating {
+    from {
+      transform: translate(0, 0px) rotateY(-30deg);
+      text-shadow: 10px 10px 3px rgba(0,0,0,0.15);
+    }
+    65% {
+      transform: translate(0, 15px) rotateY(10deg) rotateX(20deg);
+      text-shadow: -10px -10px 3px rgba(0,0,0,0.15);
+    }
+    to {
+      transform: translate(0, 0px) rotateY(-30deg);
+      text-shadow: 10px 10px 3px rgba(0,0,0,0.15);
+    }
+  }  */
+
+
+
+  /* movimiento mano*/
+  .wave {
+    animation-name: wave-animation; 
+    animation-duration: 2.5s; 
+    animation-iteration-count: infinite;  
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }
+    100% { transform: rotate( 0.0deg) }
+  }
+  
